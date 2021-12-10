@@ -1,0 +1,789 @@
+.em-ds-month-days-picker__label {
+  line-height: 2.16rem;
+  color: #697489; }
+
+.em-ds-year-days-picker {
+  padding: 1.23077rem 0;
+  margin: 0.61538rem 0; }
+
+.em-ds-year-days-picker__label {
+  line-height: 2.16rem;
+  color: #697489; }
+
+.em-ds-timezone-picker-input-range-selector {
+  padding: 0 0 1.23077rem 0;
+  margin: 0 0 0.61538rem 0; }
+  .em-ds-timezone-picker-input-range-selector .em-ds-input-addon-group {
+    flex: 1; }
+    .em-ds-timezone-picker-input-range-selector .em-ds-input-addon-group > div {
+      width: 50%; }
+
+.em-ds-timezone-picker-input-range-selector__label {
+  line-height: 2.16rem;
+  color: #697489; }
+
+.em-ds-field-wrapper {
+  display: flex;
+  flex-direction: row; }
+  .em-ds-field-wrapper .em-ds-field-wrapper {
+    padding-right: 0.61538rem;
+    flex: 1; }
+  .em-ds-field-wrapper .em-ds-field-wrapper:last-child {
+    padding-right: 0; }
+
+.em-ds-field-wrapper .em-ds-input,
+.em-ds-field-wrapper .em-ds-selectbox-wrapper,
+.em-ds-field-wrapper .em-ds-datepicker,
+.em-ds-field-wrapper .em-ds-time-picker .em-ds-input-addon-wrapper {
+  width: 100%; }
+
+.em-ds-field-wrapper .em-ds-selectbox__control {
+  padding-right: 0; }
+
+.em-ds-field-wrapper .em-ds-input-addon-group *:not(:last-child) {
+  margin-right: 0; }
+
+.em-ds-field-wrapper .em-ds-input-addon-wrapper__addon .em-ds-input-addon-wrapper__addon--default .em-ds-input-addon-wrapper__addon--right:before {
+  display: none; }
+
+.em-ds-label-wrapper {
+  text-align: right;
+  padding-right: 1.84615rem; }
+
+.em-ds-recurrence-selector-validation-message {
+  text-align: center;
+  padding: 0.61538rem; }
+
+.em-ds-query-builder-addon-number-range-field-wrapper {
+  display: flex;
+  flex-direction: row; }
+  .em-ds-query-builder-addon-number-range-field-wrapper .em-ds-input {
+    width: 100%; }
+
+.em-ds-query-builder-addon-number-range-field__separator {
+  height: 2.46154rem;
+  line-height: 2.46154rem;
+  padding-left: 0.30769rem;
+  padding-right: 0.30769rem;
+  color: #CBCFD7; }
+
+.SingleDatePickerInput {
+  border: none;
+  border-right: none; }
+
+.CalendarDay__default {
+  padding: 0 !important;
+  position: relative;
+  border: none; }
+  .CalendarDay__default:hover {
+    border: none; }
+
+.CalendarDay__outside {
+  pointer-events: none; }
+
+.CalendarMonth {
+  text-align: center;
+  vertical-align: top;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.CalendarMonthGrid__horizontal {
+  left: 0 !important; }
+
+.DayPicker_weekHeaders {
+  margin-left: 0 !important; }
+
+.DayPicker_weekHeader {
+  padding: 0 !important; }
+
+.DayPicker_weekHeader_ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0; }
+
+.em-ds-date-picker-header {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px;
+  background: #fff; }
+
+.em-ds-date-range__wrapper {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.24); }
+  .em-ds-date-range__wrapper > * > .DayPicker {
+    box-shadow: none !important; }
+
+.em-ds-date-range__header {
+  display: flex; }
+
+.em-ds-single-date__wrapper {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.24);
+  width: fit-content; }
+  .em-ds-single-date__wrapper > * > .DayPicker {
+    box-shadow: none !important; }
+
+.em-ds-date-range-picker__header {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  flex-grow: 1;
+  width: 0;
+  background: #fff;
+  padding: 0.61538rem; }
+  .em-ds-date-range-picker__header .em-ds-input-addon-group {
+    width: 100%; }
+  .em-ds-date-range-picker__header--invalidDate .em-ds-input-addon-group .em-ds-input {
+    border: solid 1px #C64252; }
+
+.em-ds-date-switcher__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #fff; }
+
+.em-ds-date-switcher__header > .em-ds-date-picker-header {
+  display: flex;
+  justify-content: flex-end; }
+
+.switch-header__checkbox {
+  padding: 0px;
+  margin-left: 0.49231rem; }
+
+.em-ds-datepicker-inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end; }
+
+.DateInput_input {
+  -moz-border-radius: calc(0.30769rem * 0.5) 0 0 calc(0.30769rem * 0.5);
+  -webkit-border-radius: calc(0.30769rem * 0.5) 0 0 calc(0.30769rem * 0.5);
+  border-radius: calc(0.30769rem * 0.5) 0 0 calc(0.30769rem * 0.5);
+  transition: border 200ms cubic-bezier(0.64, 0, 0.35, 1);
+  border: solid 1px #CBCFD7;
+  border-right: none;
+  height: calc(1.84615rem * 1.16666);
+  padding: 0 0.61538rem;
+  outline: none;
+  box-sizing: border-box; }
+  .DateInput_input:focus, .DateInput_input:hover {
+    border-color: #1e79c2; }
+  .DateInput_input:active {
+    border-color: #006AA9;
+    color: #25292F; }
+  .DateInput_input::-webkit-input-placeholder {
+    color: #697489;
+    font-style: italic; }
+  .DateInput_input:-moz-placeholder {
+    color: #697489;
+    font-style: italic; }
+  .DateInput_input::-moz-placeholder {
+    color: #697489;
+    font-style: italic; }
+  .DateInput_input:-ms-input-placeholder {
+    color: #697489;
+    font-style: italic; }
+
+.DateInput_input__disabled {
+  background: #FFFFFF;
+  pointer-events: none;
+  border-color: #E0E3E8;
+  color: #697489;
+  cursor: not-allowed; }
+  .DateInput_input__disabled:focus, .DateInput_input__disabled:hover {
+    border-color: #E0E3E8; }
+  .DateInput_input__disabled:active {
+    border-color: #E0E3E8; }
+
+.em-ds-datepicker {
+  z-index: 0; }
+
+.em-ds-datepicker .DateInput,
+.SingleDatePicker_picker .DateInput,
+.em-ds-date-range-selector-wrap-day-picker .DateInput,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateInput,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .DateInput {
+  width: auto; }
+
+.em-ds-datepicker .CalendarMonth,
+.SingleDatePicker_picker .CalendarMonth,
+.em-ds-date-range-selector-wrap-day-picker .CalendarMonth,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarMonth,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarMonth {
+  background: #F6F7F9; }
+
+.em-ds-datepicker .CalendarDay__default,
+.em-ds-datepicker .CalendarDay__selected,
+.em-ds-datepicker .CalendarDay__selected:active,
+.em-ds-datepicker .CalendarDay__selected:hover,
+.SingleDatePicker_picker .CalendarDay__default,
+.SingleDatePicker_picker .CalendarDay__selected,
+.SingleDatePicker_picker .CalendarDay__selected:active,
+.SingleDatePicker_picker .CalendarDay__selected:hover,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__default,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:active,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:hover,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:active,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__default,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected:active,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover {
+  background: #FFFFFF;
+  text-align: center;
+  border: none; }
+  .em-ds-datepicker .CalendarDay__default:focus,
+  .em-ds-datepicker .CalendarDay__selected:focus,
+  .em-ds-datepicker .CalendarDay__selected:active:focus,
+  .em-ds-datepicker .CalendarDay__selected:hover:focus,
+  .SingleDatePicker_picker .CalendarDay__default:focus,
+  .SingleDatePicker_picker .CalendarDay__selected:focus,
+  .SingleDatePicker_picker .CalendarDay__selected:active:focus,
+  .SingleDatePicker_picker .CalendarDay__selected:hover:focus,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__default:focus,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:focus,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:active:focus,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:hover:focus,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default:focus,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:focus,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:active:focus,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover:focus,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__default:focus,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected:focus,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected:active:focus,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover:focus {
+    outline: none; }
+
+.em-ds-datepicker .CalendarDay__default:hover,
+.em-ds-datepicker .CalendarDay__default:focus,
+.SingleDatePicker_picker .CalendarDay__default:hover,
+.SingleDatePicker_picker .CalendarDay__default:focus,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__default:hover,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__default:focus,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default:hover,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default:focus,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__default:hover,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__default:focus {
+  background: #FFFFFF;
+  border: none; }
+  .em-ds-datepicker .CalendarDay__default:hover .em-ds-datepicker__day-contents,
+  .em-ds-datepicker .CalendarDay__default:focus .em-ds-datepicker__day-contents,
+  .SingleDatePicker_picker .CalendarDay__default:hover .em-ds-datepicker__day-contents,
+  .SingleDatePicker_picker .CalendarDay__default:focus .em-ds-datepicker__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__default:hover .em-ds-datepicker__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__default:focus .em-ds-datepicker__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default:hover .em-ds-datepicker__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default:focus .em-ds-datepicker__day-contents,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__default:hover .em-ds-datepicker__day-contents,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__default:focus .em-ds-datepicker__day-contents {
+    background: #FFFFFF;
+    border: solid 1px #1e79c2;
+    color: #1e79c2; }
+
+.em-ds-datepicker .CalendarDay__selected,
+.SingleDatePicker_picker .CalendarDay__selected,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected {
+  background: #fff;
+  color: #FFFFFF;
+  border: none; }
+  .em-ds-datepicker .CalendarDay__selected .em-ds-datepicker__day-contents,
+  .em-ds-datepicker .CalendarDay__selected .em-ds-datepicker-range__day-contents,
+  .SingleDatePicker_picker .CalendarDay__selected .em-ds-datepicker__day-contents,
+  .SingleDatePicker_picker .CalendarDay__selected .em-ds-datepicker-range__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected .em-ds-datepicker__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected .em-ds-datepicker__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected .em-ds-datepicker__day-contents,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected .em-ds-datepicker-range__day-contents {
+    background-color: #1e79c2;
+    border: solid 1px #1e79c2;
+    color: #FFFFFF; }
+    .em-ds-datepicker .CalendarDay__selected .em-ds-datepicker__day-contents:hover,
+    .em-ds-datepicker .CalendarDay__selected .em-ds-datepicker-range__day-contents:hover,
+    .SingleDatePicker_picker .CalendarDay__selected .em-ds-datepicker__day-contents:hover,
+    .SingleDatePicker_picker .CalendarDay__selected .em-ds-datepicker-range__day-contents:hover,
+    .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected .em-ds-datepicker__day-contents:hover,
+    .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected .em-ds-datepicker-range__day-contents:hover,
+    .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected .em-ds-datepicker__day-contents:hover,
+    .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected .em-ds-datepicker-range__day-contents:hover,
+    .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected .em-ds-datepicker__day-contents:hover,
+    .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected .em-ds-datepicker-range__day-contents:hover {
+      box-shadow: inset 0 0 0 1px #A3D6FF; }
+  .em-ds-datepicker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end:after,
+  .SingleDatePicker_picker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end:after,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end:after,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end:after,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end:after {
+    display: none; }
+  .em-ds-datepicker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end .em-ds-datepicker__day-contents,
+  .em-ds-datepicker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end .em-ds-datepicker-range__day-contents,
+  .SingleDatePicker_picker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end .em-ds-datepicker__day-contents,
+  .SingleDatePicker_picker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end .em-ds-datepicker-range__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end .em-ds-datepicker__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end .em-ds-datepicker__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end .em-ds-datepicker__day-contents,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected_end .em-ds-datepicker-range__day-contents {
+    background-color: #1e79c2;
+    border: solid 1px #1e79c2;
+    color: #FFFFFF; }
+
+.em-ds-datepicker .CalendarDay__selected:hover,
+.SingleDatePicker_picker .CalendarDay__selected:hover,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:hover,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover {
+  color: #FFFFFF; }
+  .em-ds-datepicker .CalendarDay__selected:hover .em-ds-datepicker__day-contents,
+  .em-ds-datepicker .CalendarDay__selected:hover .em-ds-datepicker-range__day-contents,
+  .SingleDatePicker_picker .CalendarDay__selected:hover .em-ds-datepicker__day-contents,
+  .SingleDatePicker_picker .CalendarDay__selected:hover .em-ds-datepicker-range__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:hover .em-ds-datepicker__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:hover .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover .em-ds-datepicker__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover .em-ds-datepicker__day-contents,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover .em-ds-datepicker-range__day-contents {
+    background-color: #1e79c2;
+    color: #FFFFFF; }
+
+.em-ds-datepicker .CalendarDay.CalendarDay__blocked_calendar,
+.SingleDatePicker_picker .CalendarDay.CalendarDay__blocked_calendar,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay.CalendarDay__blocked_calendar,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__blocked_calendar,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__blocked_calendar {
+  color: #697489;
+  cursor: not-allowed; }
+  .em-ds-datepicker .CalendarDay.CalendarDay__blocked_calendar > div.em-ds-datepicker-range__day-contents,
+  .SingleDatePicker_picker .CalendarDay.CalendarDay__blocked_calendar > div.em-ds-datepicker-range__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay.CalendarDay__blocked_calendar > div.em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__blocked_calendar > div.em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__blocked_calendar > div.em-ds-datepicker-range__day-contents {
+    border: none;
+    background-color: #fff;
+    color: #697489;
+    pointer-events: none;
+    position: relative; }
+    .em-ds-datepicker .CalendarDay.CalendarDay__blocked_calendar > div.em-ds-datepicker-range__day-contents::after,
+    .SingleDatePicker_picker .CalendarDay.CalendarDay__blocked_calendar > div.em-ds-datepicker-range__day-contents::after,
+    .em-ds-date-range-selector-wrap-day-picker .CalendarDay.CalendarDay__blocked_calendar > div.em-ds-datepicker-range__day-contents::after,
+    .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__blocked_calendar > div.em-ds-datepicker-range__day-contents::after,
+    .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__blocked_calendar > div.em-ds-datepicker-range__day-contents::after {
+      content: "";
+      height: 0.07692rem;
+      width: 48%;
+      background: #697489;
+      position: absolute;
+      pointer-events: none;
+      top: 50%;
+      margin-top: -0.04615rem;
+      left: 26%; }
+
+.em-ds-datepicker .CalendarDay.CalendarDay__outside,
+.SingleDatePicker_picker .CalendarDay.CalendarDay__outside,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay.CalendarDay__outside,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__outside,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__outside {
+  color: #697489;
+  pointer-events: none; }
+  .em-ds-datepicker .CalendarDay.CalendarDay__outside > div.em-ds-datepicker-range__day-contents,
+  .SingleDatePicker_picker .CalendarDay.CalendarDay__outside > div.em-ds-datepicker-range__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay.CalendarDay__outside > div.em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__outside > div.em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__outside > div.em-ds-datepicker-range__day-contents {
+    border: none;
+    color: #697489;
+    pointer-events: none; }
+
+.em-ds-datepicker .CalendarMonth_table,
+.SingleDatePicker_picker .CalendarMonth_table,
+.em-ds-date-range-selector-wrap-day-picker .CalendarMonth_table,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarMonth_table,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .CalendarMonth_table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #FFFFFF;
+  width: calc(2.46154rem * 9.93) !important;
+  margin-left: calc(1.84615rem * (-0.5));
+  margin-top: 1.23077rem; }
+
+.em-ds-datepicker .DayPicker_weekHeader,
+.SingleDatePicker_picker .DayPicker_weekHeader,
+.em-ds-date-range-selector-wrap-day-picker .DayPicker_weekHeader,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DayPicker_weekHeader,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .DayPicker_weekHeader {
+  position: absolute;
+  color: #25292F;
+  height: 1.84615rem;
+  top: calc(2.46154rem * 1.55);
+  z-index: 2;
+  text-align: left; }
+
+.em-ds-datepicker .DayPicker_weekHeader_ul,
+.SingleDatePicker_picker .DayPicker_weekHeader_ul,
+.em-ds-date-range-selector-wrap-day-picker .DayPicker_weekHeader_ul,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DayPicker_weekHeader_ul,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .DayPicker_weekHeader_ul {
+  font-size: 1.0769rem; }
+
+.em-ds-datepicker .DayPicker_weekHeader_li,
+.SingleDatePicker_picker .DayPicker_weekHeader_li,
+.em-ds-date-range-selector-wrap-day-picker .DayPicker_weekHeader_li,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DayPicker_weekHeader_li,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .DayPicker_weekHeader_li {
+  display: inline-block;
+  text-align: center;
+  width: calc(0.61538rem * 5.625) !important; }
+
+.em-ds-datepicker .DayPicker_weekHeader_li small,
+.SingleDatePicker_picker .DayPicker_weekHeader_li small,
+.em-ds-date-range-selector-wrap-day-picker .DayPicker_weekHeader_li small,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DayPicker_weekHeader_li small,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .DayPicker_weekHeader_li small {
+  font-size: 1rem; }
+
+.em-ds-datepicker .DayPicker__withBorder,
+.SingleDatePicker_picker .DayPicker__withBorder,
+.em-ds-date-range-selector-wrap-day-picker .DayPicker__withBorder,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DayPicker__withBorder,
+.em-ds-datepicker-wrapper-day-picker-single-date-controller .DayPicker__withBorder {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.24), 0 8px 17px 0 rgba(0, 0, 0, 0.19); }
+
+.em-ds-datepicker--focused .DateInput_input {
+  border-color: #1e79c2;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none; }
+
+.em-ds-datepicker--focused .em-ds-datepicker__picker:not([disabled]) {
+  border-right-color: #1e79c2;
+  border-top-color: #1e79c2;
+  border-bottom-color: #1e79c2;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none; }
+
+.em-ds-datepicker__day-contents,
+.em-ds-datepicker-range__day-contents {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.46154rem;
+  height: 2.46154rem;
+  color: #25292F;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  border: solid 1px transparent; }
+
+.CalendarDay__outside .em-ds-datepicker__day-contents {
+  color: #CBCFD7; }
+
+.CalendarDay__default:hover .em-ds-datepicker__day-contents,
+.CalendarDay__default:hover .em-ds-datepicker-range__day-contents,
+.CalendarDay__default:focus .em-ds-datepicker__day-contents,
+.CalendarDay__default:focus .em-ds-datepicker-range__day-contents {
+  background: #FFFFFF;
+  border: solid 1px #1e79c2;
+  color: #1e79c2; }
+
+.without-selected-date .CalendarDay__today .em-ds-datepicker-range__day-contents {
+  border: solid 1px #697489;
+  color: #25292F; }
+
+.em-ds-datepicker .DayPickerNavigation,
+.SingleDatePicker_picker .DayPickerNavigation,
+.DayPicker .DayPickerNavigation {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  top: 10.9px;
+  padding: 0.30769rem 0.61538rem 0 0.61538rem; }
+
+.em-ds-datepicker .CalendarMonth_caption,
+.SingleDatePicker_picker .CalendarMonth_caption,
+.DayPicker .CalendarMonth_caption {
+  padding-top: calc(0.61538rem * 1.25);
+  padding-bottom: calc(2.46154rem * 1.187);
+  font-size: 1.0769rem;
+  line-height: 1; }
+  .em-ds-datepicker .CalendarMonth_caption strong,
+  .SingleDatePicker_picker .CalendarMonth_caption strong,
+  .DayPicker .CalendarMonth_caption strong {
+    position: relative;
+    top: 1px; }
+
+.em-ds-datepicker__picker {
+  -moz-border-radius: 0 calc(0.30769rem * 0.5) calc(0.30769rem * 0.5) 0;
+  -webkit-border-radius: 0 calc(0.30769rem * 0.5) calc(0.30769rem * 0.5) 0;
+  border-radius: 0 calc(0.30769rem * 0.5) calc(0.30769rem * 0.5) 0;
+  padding: 0 calc(0.30769rem * 0.5); }
+  .em-ds-datepicker__picker:hover:not([disabled]) {
+    border: solid 1px #1e79c2; }
+  .em-ds-datepicker__picker.disabled {
+    border: solid 1px #E0E3E8;
+    pointer-events: none; }
+
+.em-ds-form-item--error .em-ds-datepicker .em-ds-input {
+  border-right-color: transparent; }
+
+.em-ds-form-item--error .em-ds-datepicker .em-ds-datepicker-range__picker {
+  border-top-color: #C64252;
+  border-right-color: #C64252;
+  border-bottom-color: #C64252; }
+
+.em-ds-date-time-picker__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.61538rem;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.24), 0 8px 17px 0 rgba(0, 0, 0, 0.19);
+  background-color: #FFFFFF; }
+  .em-ds-date-time-picker__wrapper .em-ds-date-time-picker__time-picker-wrapper {
+    background-color: #F6F7F9;
+    display: flex;
+    flex-direction: column; }
+    .em-ds-date-time-picker__wrapper .em-ds-date-time-picker__time-picker-wrapper .em-ds-time-picker-menu {
+      border: unset;
+      box-shadow: unset; }
+  .em-ds-date-time-picker__wrapper .em-ds-datepicker-range-wrapper-day-picker-single-date-controller {
+    border-right: 0.07692rem solid #CBCFD7; }
+    .em-ds-date-time-picker__wrapper .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DayPicker {
+      box-shadow: unset; }
+
+.em-ds-date-time-picker__date-input {
+  padding-right: 0.61538rem; }
+
+.em-ds-datetimepicker {
+  min-width: 223px; }
+
+.em-ds-form-item--error .em-ds-datetimepicker .em-ds-input {
+  border-right-color: transparent; }
+
+.em-ds-form-item--error .em-ds-datetimepicker .em-ds-datepicker-range__picker {
+  border-top-color: #C64252;
+  border-right-color: #C64252;
+  border-bottom-color: #C64252; }
+
+.em-ds-datepicker-wrapper-input-date-range-picker-controller {
+  display: flex;
+  flex-direction: row; }
+  .em-ds-datepicker-wrapper-input-date-range-picker-controller div.em-ds-form-item {
+    outline: none;
+    box-shadow: none;
+    margin-right: 0.61538rem; }
+
+.em-ds-datepicker-wrapper-button-date-range-picker-controller {
+  margin-bottom: 0.61538rem; }
+
+.em-ds-datepicker-range .DateRangePicker,
+.em-ds-date-range-selector-wrap-day-picker .DateRangePicker,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateRangePicker {
+  min-width: calc(4.92308rem * (4.57)); }
+
+.em-ds-datepicker-range .DateRangePickerInput,
+.em-ds-date-range-selector-wrap-day-picker .DateRangePickerInput,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateRangePickerInput {
+  border: none;
+  border-right: none; }
+
+.em-ds-datepicker-range .DateInput,
+.em-ds-date-range-selector-wrap-day-picker .DateInput,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateInput {
+  margin-right: 1.23077rem; }
+
+.em-ds-datepicker-range .DateInput_input,
+.em-ds-date-range-selector-wrap-day-picker .DateInput_input,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateInput_input {
+  border: solid 1px #CBCFD7;
+  -moz-border-radius: calc(0.30769rem * 0.5);
+  -webkit-border-radius: calc(0.30769rem * 0.5);
+  border-radius: calc(0.30769rem * 0.5); }
+  .em-ds-datepicker-range .DateInput_input:disabled,
+  .em-ds-date-range-selector-wrap-day-picker .DateInput_input:disabled,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateInput_input:disabled {
+    background-color: #FFFFFF; }
+
+.em-ds-datepicker-range .DateRangePickerInput_arrow,
+.em-ds-date-range-selector-wrap-day-picker .DateRangePickerInput_arrow,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateRangePickerInput_arrow {
+  display: none; }
+
+.em-ds-datepicker-range .DateInput_input__focused,
+.em-ds-date-range-selector-wrap-day-picker .DateInput_input__focused,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateInput_input__focused {
+  border: solid 1px #1e79c2;
+  box-shadow: #52A6EC; }
+
+.em-ds-datepicker-range .DateRangePickerInput__disabled,
+.em-ds-date-range-selector-wrap-day-picker .DateRangePickerInput__disabled,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateRangePickerInput__disabled {
+  background: #FFFFFF;
+  pointer-events: none;
+  border-color: #E0E3E8;
+  color: #697489;
+  cursor: not-allowed; }
+  .em-ds-datepicker-range .DateRangePickerInput__disabled:focus, .em-ds-datepicker-range .DateRangePickerInput__disabled:hover,
+  .em-ds-date-range-selector-wrap-day-picker .DateRangePickerInput__disabled:focus,
+  .em-ds-date-range-selector-wrap-day-picker .DateRangePickerInput__disabled:hover,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateRangePickerInput__disabled:focus,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateRangePickerInput__disabled:hover {
+    border-color: #E0E3E8; }
+  .em-ds-datepicker-range .DateRangePickerInput__disabled:active,
+  .em-ds-date-range-selector-wrap-day-picker .DateRangePickerInput__disabled:active,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateRangePickerInput__disabled:active {
+    border-color: #E0E3E8; }
+  .em-ds-datepicker-range .DateRangePickerInput__disabled .DateInput_input__focused,
+  .em-ds-date-range-selector-wrap-day-picker .DateRangePickerInput__disabled .DateInput_input__focused,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .DateRangePickerInput__disabled .DateInput_input__focused {
+    border: solid 1px #E0E3E8 !important;
+    box-shadow: none; }
+
+.em-ds-datepicker-range .CalendarDay__default,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__default,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default {
+  padding: 0 !important;
+  position: relative;
+  border: none;
+  background-color: #FFFFFF;
+  text-align: center;
+  transition: all 100ms cubic-bezier(0.18, 0.67, 0.6, 1.22); }
+  .em-ds-datepicker-range .CalendarDay__default:focus,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__default:focus,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default:focus {
+    outline: none; }
+
+.em-ds-datepicker-range .CalendarDay__default:hover,
+.em-ds-datepicker-range .CalendarDay__default:focus,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__default:hover,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__default:focus,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default:hover,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default:focus {
+  color: #FFFFFF; }
+  .em-ds-datepicker-range .CalendarDay__default:hover .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range .CalendarDay__default:focus .em-ds-datepicker-range__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__default:hover .em-ds-datepicker-range__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__default:focus .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default:hover .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__default:focus .em-ds-datepicker-range__day-contents {
+    border: solid 1px #1e79c2;
+    box-shadow: inset 0 0 0 1px #A3D6FF;
+    color: #1e79c2; }
+
+.em-ds-datepicker-range .CalendarDay__selected,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected {
+  color: #FFFFFF; }
+
+.em-ds-datepicker-range .CalendarDay__selected:hover,
+.em-ds-datepicker-range .CalendarDay__selected:focus,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:hover,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:focus,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:focus {
+  color: #FFFFFF; }
+  .em-ds-datepicker-range .CalendarDay__selected:hover .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range .CalendarDay__selected:focus .em-ds-datepicker-range__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:hover .em-ds-datepicker-range__day-contents,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected:focus .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:hover .em-ds-datepicker-range__day-contents,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected:focus .em-ds-datepicker-range__day-contents {
+    color: #FFFFFF;
+    background: #1e79c2;
+    box-shadow: inset 0 0 0 1px #A3D6FF; }
+
+.em-ds-datepicker-range .CalendarDay__selected_span,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected_span,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected_span {
+  background: #EBF6FF;
+  position: relative;
+  z-index: 3; }
+  .em-ds-datepicker-range .CalendarDay__selected_span:after,
+  .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected_span:after,
+  .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected_span:after {
+    content: "";
+    border-top: calc(0.30769rem * 0.75) solid #FFFFFF;
+    border-bottom: calc(0.30769rem * 0.75) solid #FFFFFF;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #EBF6FF; }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .em-ds-datepicker-range .CalendarDay__selected_span:after,
+      .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected_span:after,
+      .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected_span:after {
+        border-top: none;
+        border-bottom: none; } }
+
+.em-ds-datepicker-range .CalendarDay.CalendarDay__blocked_calendar:focus .em-ds-datepicker-range__day-contents,
+.em-ds-datepicker-range .CalendarDay.CalendarDay__blocked_calendar:hover .em-ds-datepicker-range__day-contents,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay.CalendarDay__blocked_calendar:focus .em-ds-datepicker-range__day-contents,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay.CalendarDay__blocked_calendar:hover .em-ds-datepicker-range__day-contents,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__blocked_calendar:focus .em-ds-datepicker-range__day-contents,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay.CalendarDay__blocked_calendar:hover .em-ds-datepicker-range__day-contents {
+  box-shadow: none;
+  border: none; }
+
+.em-ds-datepicker-range .CalendarDay__selected_start:before,
+.em-ds-datepicker-range .CalendarDay__selected_end:before,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected_start:before,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected_end:before,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected_start:before,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected_end:before {
+  content: "";
+  position: absolute;
+  background-color: #FFFFFF;
+  top: 0;
+  bottom: 0;
+  z-index: 2; }
+
+.em-ds-datepicker-range .CalendarDay__selected_start:after,
+.em-ds-datepicker-range .CalendarDay__selected_end:after,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected_start:after,
+.em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected_end:after,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected_start:after,
+.em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected_end:after {
+  content: "";
+  border-top: calc(0.30769rem * 0.75) solid #FFFFFF;
+  border-bottom: calc(0.30769rem * 0.75) solid #FFFFFF;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #EBF6FF; }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .em-ds-datepicker-range .CalendarDay__selected_start:after,
+    .em-ds-datepicker-range .CalendarDay__selected_end:after,
+    .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected_start:after,
+    .em-ds-date-range-selector-wrap-day-picker .CalendarDay__selected_end:after,
+    .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected_start:after,
+    .em-ds-datepicker-range-wrapper-day-picker-single-date-controller .CalendarDay__selected_end:after {
+      border-top: none;
+      border-bottom: none; } }
+
